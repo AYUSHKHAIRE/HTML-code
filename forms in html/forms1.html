@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>enter your information</h1>
+    <form action="backend.php"></form>
+    <!-- action is a datpointthat submits all your adta -->
+    <!-- here php is as example as a backend -->
+    <div>
+        <label for="Your name">Your name</label>
+        Your name : <input type="text" name="myname" id="name">
+        fathers name : <input type="text" name="myfatname" id="">
+        surname : <input type="text" name="mysrname" id="">
+        <hr>
+    </div>
+    <div>
+        enter your email : <input type="email" name="myemail" id="">
+        <hr>
+    </div>
+    <div>
+        enter your birth date : <input type="date" name="mybdate" id="">
+        <hr>
+    </div>
+    <div>
+        enter your phone numnber :<input type="number" name="mynumber" id="">
+        <hr>
+    </div>
+    <div>
+        male : <input type="radio" name="mygender" id="">
+        Female : <input type="radio" name="myderfrdf" id="">
+        other :<input type="radio" name="mygender" id="">
+    </div>
+    <hr>
+    write about yourself : <br><textarea name="yourtext" id="" cols="30" rows="10"></textarea>
+    <hr>
+    <div>
+        <!-- this is a unchecked by default -->
+        you are NOT a robot : <input type="checkbox" name="" id=""><br>
+        <!-- for by default checked -->
+        you are a responsible indivisual : <input type="checkbox" checked name="" id="">
+        <hr>
+    </div>
+    <label for="car"></label>
+    <select name="mycar" id="car">
+        <option value="ind">indica</option>
+        <option value="swf">swift</option>
+        <option value="des">desire</option>
+    </select>
+    <hr>
+    <div>
+        <input type="submit" value="submit NOW">
+        <input type="reset" value="reset NOW">
+        <hr>
+    </div>
+
+</body>
+
+</html>
+<!-- name is a method to tell the bvackground to take input  -->

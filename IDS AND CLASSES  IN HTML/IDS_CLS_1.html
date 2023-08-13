@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ids and classes</title>
+    <style>
+        .myclass{
+            background-color: aqua;
+        }
+
+        .myclass2 {
+            color: rgb(0, 0, 0);
+        }
+
+        .myclass3 {
+            height: 55px;
+            width: 55px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ids and classes</h1>
+    <div id="mainbox" class=" redbg">
+
+        <!-- emmet -->
+        <!-- you can write DOT for class
+        and hash for id
+        simply type span.redbg -->
+        <span class="redBG"></span>
+        <!-- simply write span#msp -->
+        <span id="msp"></span>
+
+        <!-- div.redbg.blackborder.anotherclass -->
+        <div class="redbg blackborder anotherclass"></div>
+
+        <!-- emet takes div tag as default -->
+        <!-- write .blackbackground -->
+        <div class="blackbackground"></div>
+
+        <!-- multiple elements -->
+        <!-- span.myclass.myclass2.myclass3 -->
+        <span class="myclass myclass2 myclass3"></span>
+
+        <!-- write it four times by -->
+        <!-- span.myclass.myclass2.myclass3*4 -->
+        <span class="myclass myclass2 myclass3">first</span>
+            <h1 style="color:red">my name is <span style="color: aqua;">ayush</span></h1>
+    </div>
+</body>
+
+</html>
+<!-- 
+            id is a unique na,e provided to the elemet to identtify it
+        an id for eah and every element is unique
+        why
+        to impliment css and js to a element properly
+        
+        classes :
+            if I want to define a property to all functions then i have two options
+            1:
+            i will give it saperately
+            ie for the all elements i can give different styles in css
+            2.
+            i will define a class
+            i will define properties in it
+            and i will simply give the class to a perticular element
+            the property in the class will go to that perticular element
+    -->
